@@ -24,7 +24,7 @@ export default async function handler(req, res) {
 
   try {
     await resend.emails.send({
-      from: 'Unity Wealth <noreply@unitywealth.name.ng>',  // Must match your verified Resend domain
+      from: 'Unity Wealth <noreply@mail.unitywealth.name.ng>',  // Must match your verified Resend domain
       to: email,
       subject: '🎉 Welcome to Unity Wealth Cooperative!',
       html: `
