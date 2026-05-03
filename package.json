@@ -1,0 +1,9 @@
+{
+  "name": "unity-wealth-email",
+  "version": "1.0.0",
+  "description": "Welcome email function for Unity Wealth Cooperative",
+  "type": "module",
+  "dependencies": {
+    "resend": "^3.0.0"
+  }
+}
