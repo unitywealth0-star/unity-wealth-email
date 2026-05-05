@@ -73,12 +73,31 @@ export default async function handler(req, res) {
                 </tr>
               </table>
 
+              <!-- 12 months access banner -->
+              <table width="100%" cellpadding="0" cellspacing="0" style="background:#f0fdf4;border:1px solid #86efac;border-radius:10px;margin-bottom:16px;">
+                <tr>
+                  <td style="padding:14px 20px;">
+                    <p style="margin:0;font-size:0.83rem;color:#166534;line-height:1.7;">
+                      <strong>🎓 Your registration fee gives you 12 months full access to:</strong><br>
+                      PPS Training · ROSCA Savings · LiveGood Pool · VCC · Education Hub · and all income opportunities.
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
               <!-- Plan -->
               <table width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5dece;border-radius:10px;margin-bottom:28px;">
                 <tr>
                   <td style="padding:16px 20px;border-bottom:1px solid #e5dece;">
                     <span style="color:#999;font-size:0.78rem;text-transform:uppercase;font-weight:600;">Your Plan</span>
                     <span style="float:right;color:#0F2A4A;font-weight:700;">${planLabel}</span>
+                  </td>
+                  <td style="display:none;"></td>
+                </tr>
+                <tr>
+                  <td style="padding:16px 20px;border-bottom:1px solid #e5dece;">
+                    <span style="color:#999;font-size:0.78rem;text-transform:uppercase;font-weight:600;">Access Duration</span>
+                    <span style="float:right;color:#0F2A4A;font-weight:700;">12 Months Full Access</span>
                   </td>
                   <td style="display:none;"></td>
                 </tr>
@@ -109,7 +128,7 @@ export default async function handler(req, res) {
             <td style="background:#f5f0e8;padding:24px 40px;text-align:center;border-top:1px solid #e5dece;">
               <p style="margin:0 0 6px;color:#999;font-size:0.78rem;">Questions? Reply to this email or contact us at</p>
               <a href="mailto:unitywealth0@gmail.com" style="color:#B8912E;font-size:0.82rem;font-weight:600;">unitywealth0@gmail.com</a>
-              <p style="margin:12px 0 0;color:#bbb;font-size:0.72rem;">© 2025 Unity Wealth Cooperative Society. All rights reserved.</p>
+              <p style="margin:12px 0 0;color:#bbb;font-size:0.72rem;">© 2026 Unity Wealth Cooperative Society. All rights reserved.</p>
             </td>
           </tr>
 
